@@ -4,6 +4,8 @@ A simple library to make developing with Ollama and Java easier.
 **Getting Started**
 To get started all you need is to have Ollama installed and the "org.json" package installed.
 
+Ollama Download: https://ollama.com/download
+
 **Setting a Model**
 The default model is llama3.2. The model can be changed by using the function `setModel()`.
 
