@@ -26,7 +26,7 @@ You can also create messages that can output functions by using the `sendFunctio
 
 *Example*
 ```java
-String response = sendFunctionMessage("clear the chats memory" , new String[] { "clear memory" }, new String[] { "ClearMemory()" });`
+String response = sendFunctionMessage("clear the chats memory" , new String[] { "clear memory" }, new String[] { "ClearMemory()" });
 
 if ("ClearMemory".equalsIgnoreCase(response.trim())) {
   JLlama.clearMemory();
