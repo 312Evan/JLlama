@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 
 public class SwingExample {
     public static void main(String[] args) {
+        JLlama.setModel("tinyllama");
         JLlama.setMemoryActive(true);
         SwingUtilities.invokeLater(ChatbotUI::new);
     }

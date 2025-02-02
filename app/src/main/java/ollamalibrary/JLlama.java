@@ -39,7 +39,7 @@ public final class JLlama {
     }
 
     public static void setModel(String model) {
-        defaultModel = "llama3.2";
+        defaultModel = model;
     }
 
     public static String sendMessage(String userMessage) {
